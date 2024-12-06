@@ -74,60 +74,71 @@
   font-family: Tim New Roman;
   margin-top: 10px;
 }
-.main {
+.box-text {
   width: 100%;
-  height: 600px;
+  height: 25%;
 }
-.main-1 {
-  width: 50%;
-  height: 600px;
-
-  float: left;
+.box-text h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
 }
-.main-2 {
-  width: 50%;
-  height: 600px;
-
-  float: left;
+.box-text p {
+  text-align: center;
+  font-size: 28px;
+  color: white;
 }
-.box-img {
-  width: 65%;
-  height: 500px;
-
-  border-radius: 70px;
+.box2-text {
+  width: 70%;
+  height: 60%;
   margin: auto;
-  margin-top: 50px;
 }
-.box-img img {
+.text3 {
+  width: 40%;
+  height: 80%;
+  float: left;
+  margin-top: 5%;
+  display: flex;
+  user-select: none;
+  justify-content: space-evenly;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+.text3-img {
+  width: 45%;
+  height: 100%;
+  background-color: blueviolet;
+  float: left;
+  margin-left: 15%;
+  border-radius: 100%;
+}
+.text3-img img {
   width: 100%;
   height: 100%;
-  border-radius: 18%;
+  object-fit: cover;
+  border-radius: 100%;
 }
-.main-1 h1 {
-  text-align: center;
-  margin-top: 180px;
+.img-text {
+  width: 100%;
+  height: 32%;
+}
+.img1-2 {
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+.img1-2 img {
+  width: 70%;
+  height: 75%;
+  object-fit: cover;
+}
+.text1-2 {
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+.text1-2 p {
   color: white;
-  font-size: 50px;
-}
-.main-1 p {
-  font-size: 50px;
-  margin-left: 130px;
+  font-size: 35px;
   margin-top: 20px;
-  color: white;
-}
-.main-1 button {
-  width: 220px;
-  height: 60px;
-  background-color: rgb(0, 140, 255);
-  border-radius: 40px;
-  margin-left: 30%;
-  border: none;
-  margin-top: 20px;
-  color: white;
-}
-.main-1 button a {
-  text-decoration: none;
-  font-size: 40px;
-  font-weight: bold;
-  color: black;
 }
